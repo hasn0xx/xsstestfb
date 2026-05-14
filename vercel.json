@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/api/redirect",
+      "destination": "https://www.internalfb.com/intern/bug-bounty/get-canary-token/b58f70deea8f49a79ffc854eb22ef472/",
+      "permanent": false
+    }
+  ]
+}
